@@ -1,10 +1,10 @@
-# Web Development Project 7 - *Name of App Here*
+# Web Development Project 7 - *Amongus Crew*
 
-Submitted by: **Your Name Here**
+Submitted by: **Johan Delao**
 
-This web app: **insert description**
+This web app: **Among Us Crew, can create, delete, and update crewmembers**
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
