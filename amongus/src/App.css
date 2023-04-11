@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #551a8b;
+}
+
+.upperSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.logoSection{
+  display: flex;
+  align-items: center;
+}
+
+#mainTitle{
+  font-size: 32px;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuSection{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+#gallery, #create{
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.App{
+  width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.title{
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+}
+
+#group{
+  margin: 0 auto;
+  display: flex;
+}
+
+#description{
+  font-size: 24px;
+  text-align: center;
+}
+
+#spaceship{
+  margin: 0 auto;
+  display: flex;
+}
+
+.mainGallery{
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 6%;
+  max-width: 1024px;
+}
+
+.gallerySection{
+  width: 100%;
+  height: 100%;
+}
+
+.Crewmates{
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.Crewmate{
+  width: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black;
+  padding: 1rem; */
+}
+
+.bio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.stat{
+  display: flex;
+  width: 190px;
+  justify-content: space-between;
+}
+
+.label{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.data{
+  font-size: 24px;
+  text-align: left;
+  width: 100px;
+}
+
+.editButton, .deleteButton, .createButton {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.editButton{
+  color: white;
+  background: #18171F;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButton{
+  background-color: red;
+  color: white;
+  margin-top: .5rem;
+}
+
+.createCrewmate {
+  width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 6%;
+}
+
+label{
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+#name, #speed{
+  width: 325px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.radioSection{
+  font-size: 20px;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.radioSection .radio{
+  width: fit-content;
+  min-width: 50px;
+  display: flex;
+  gap: .5rem;
+}
+
+.radio label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form{
+  margin-top: 4rem;
+}
+
+#submit{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #18171F;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+button{
+  cursor: pointer;
+}
+
+.nothingMessage{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.createButton {
+  width: fit-content;
+  background-color: black;
+  color: white;
+}
+
+.noCrew{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.speedSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.display{
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  margin: 0;
+}
+
+.colorDisplay{
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  margin: 0;
+}
+
+.editSection{
+  margin-top: 6%;
+}
+
+.submit{
+  width: fit-content;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  margin: 0 auto;
+}
